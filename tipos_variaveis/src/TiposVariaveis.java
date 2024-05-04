@@ -9,7 +9,7 @@ public class TiposVariaveis {
 
         numero = 10;
 
-        System.out.println(final);
+        System.out.println(numero);
 
         
         // tipos primitivos
