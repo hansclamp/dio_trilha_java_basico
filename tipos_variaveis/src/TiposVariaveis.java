@@ -3,7 +3,7 @@ public class TiposVariaveis {
         
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
-        short numeroLongo = (short) numeroNormal;
+        long numeroLongo = (short) numeroNormal;
 
         int numero = 5;
 
