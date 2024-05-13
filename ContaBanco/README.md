@@ -1,18 +1,39 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# ContaTerminal
 
-## Folder Structure
+Um simples programa em Java para simular a criação de uma conta em um banco.
 
-The workspace contains two folders by default, where:
+## ☕ Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Solicita ao usuário o número da agência, número da conta e nome completo.
+- Exibe uma mensagem de boas-vindas com os dados informados e um saldo pré-definido.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## ⚙️ Como usar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Certifique-se de ter o Java instalado em seu sistema.
+2. Compile o programa utilizando o comando `javac ContaTerminal.java`.
+3. Execute o programa com o comando `java ContaTerminal`.
+4. Siga as instruções para inserir os dados solicitados.
 
-## Dependency Management
+## 📄 Exemplo de uso
+````
+Por favor, digite o número da Agência
+12345.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Por favor, digite o número da sua Conta
+67890.
+
+Por favor, digite seu Nome Completo
+João da Silva.
+````
+
+````
+Olá João da Silva, obrigado por criar uma conta em nosso banco, sua agência é 12345, conta 67890 e seu saldo 237.48 já está disponível para saque.
+````
+
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! 
+
+Sinta-se à vontade para abrir uma issue ou enviar um pull request.
